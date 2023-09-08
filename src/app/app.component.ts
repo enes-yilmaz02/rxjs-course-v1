@@ -20,9 +20,9 @@ export class AppComponent implements OnInit {
       subscriber.complete();
 
     });
-    // observable.subscribe(data => {
-    //   console.log(data);
-    // });
+    observable.subscribe(data => {
+      console.log(data);
+    });
 
 
     const observer = {
